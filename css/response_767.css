@@ -92,12 +92,31 @@
         top: 0;
         transform: rotate(-45deg);
     }
-    /* .menu_open header {
-        background: #595959;
-    } */
+    header {
+        border-bottom: 1px solid #F5F5F5;
+        height: 74px;
+    }
     header .logo-mob {
         display: block;
+        margin-right: 21px;       
     }
+    .header-phone {
+        margin-right: 30px;
+        margin-left: auto;
+    }
+    header .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .menu .item {
+        margin-right: 0;
+    }
+    header .menu .item a {
+        display: block;
+        text-align: center;
+    }
+
 
 
 

@@ -167,12 +167,11 @@ input[type=number] {
     Global styles
 -------------------*/
 :root {
-
     --scroll_width: 17px;
-    --text_color: #000;
-    --text_color2: rgba(0, 0, 0, 0.8);
-    --font_size: 18px;
-    --font_size_title: 25px;
+    --text_color: #262626;
+    --text_color2: #4B4B4B;
+    --font_size: 16px;
+    --font_size_title: 33px;
     --font_family: 'Lato';
 }
 
@@ -372,6 +371,7 @@ header {
     height: 74px;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid transparent;
 }
 header .cont {
     display: flex;
@@ -380,8 +380,8 @@ header .cont {
 }
 header .mob_menu_btn {
     display: none;
-    width: 30px;
-    height: 28px;
+    width: 47px;
+    height: 26px;
     margin-right: 0px;
     margin-left: auto;
     justify-content: center;
@@ -395,21 +395,19 @@ header .mob_menu_btn .icon {
     width: 20px;
     height: 18px;
 }
-
 header .close_btn {
     color: #000;   
-    position: absolute;
-    top: 29px;
-    right: 18px;
+    order: 1;
     display: none;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    /* z-index: 250; */
-    /* display: none; */
+    margin-right: 0px;
+    margin-left: auto;
+    width: 47px;
+    height: 26px;
 }
-
 header .menu .item {
     margin-right: 85px;
 }
@@ -419,9 +417,9 @@ header .menu .item:last-child {
 header .menu .item > a {
     font-family: var(--font_family);
     font-weight: 700;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;    
-    color: #262626;
+    color: var(--text_color);
     position: relative;
     display: flex;
     transition: color .2s linear;
@@ -444,8 +442,9 @@ header .logo-mob {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    color: #262626;
+    color:  var(--text_color);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 
@@ -471,7 +470,7 @@ header .logo-mob {
     font-weight: 400;
     font-size: 26px;
     line-height: 31px;
-    color: #4B4B4B; 
+    color: var(--text_color2); 
     margin-bottom: 25px;
 }
 .first-section_text {
@@ -479,7 +478,7 @@ header .logo-mob {
     font-weight: 400;
     font-size: 26px;
     line-height: 150%;
-    color: #4B4B4B; 
+    color: var(--text_color2); 
     margin-bottom: 50px;
 }
 .first-section_btn {
@@ -490,7 +489,7 @@ header .logo-mob {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #262626;
+    color:  var(--text_color);
     text-decoration: none;
     width: 290px;
     height: 60px;
@@ -525,9 +524,9 @@ header .logo-mob {
 .title {
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 33px;
+    font-size: var(--font_size_title);
     line-height: 39px;
-    color: #4B4B4B;
+    color: var(--text_color2); 
 }
 .direction_items {
     display: flex;
@@ -546,13 +545,13 @@ header .logo-mob {
     font-size: 21px;
     line-height: 25px;
     text-transform: uppercase;    
-    color: #4B4B4B; 
+    color: var(--text_color2); 
     margin-bottom: 18px;
 }
 .direction_item-text {
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 150%;
     color: #8B8B8B;
 }
@@ -590,9 +589,9 @@ header .logo-mob {
 }
 .about_item ul li {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 150%;
-    color: #262626;
+    color: var(--text_color);
     margin-bottom: 13px;
     position: relative;
 }
@@ -610,9 +609,9 @@ header .logo-mob {
 .about_item-title {
     font-family: var(--font_family);
     font-weight: 900;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 177.5%;
-    color: #262626;
+    color: var(--text_color);
     margin-bottom: 10px;
 }
 .about blockquote {
@@ -621,7 +620,7 @@ header .logo-mob {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    color: #262626;
+    color: var(--text_color);
     margin-bottom: 43px;
     margin-left: -30px;
 }
@@ -658,7 +657,7 @@ header .logo-mob {
     font-weight: 600;
     font-size: 25px;
     line-height: 135%;
-    color: #4B4B4B;    
+    color: var(--text_color2);  
     margin-bottom: 22px;
 }
 .method_wrap {
@@ -670,9 +669,9 @@ header .logo-mob {
 }
 .method_info p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 150%;
-    color: #4B4B4B; 
+    color: var(--text_color2); 
     margin-bottom: 24px;
 }
 .method_info p b {
@@ -722,14 +721,14 @@ header .logo-mob {
     font-weight: 700;
     font-size: 25px;
     line-height: 150%;
-    color: #262626;
+    color: var(--text_color);
     margin-bottom: 27px;
 }
 .consultations_item-text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 150%;
-    color: #262626;
+    color: var(--text_color);
 }
 
 
@@ -761,7 +760,7 @@ header .logo-mob {
     font-size: 25px;
     line-height: 150%;
     text-align: center;
-    color: #262626;
+    color: var(--text_color);
     margin-bottom: 6px;
 }
 .price_item-text {
@@ -769,7 +768,7 @@ header .logo-mob {
     font-size: 26px;
     line-height: 150%;
     text-align: center;
-    color: #262626;
+    color: var(--text_color);
     padding-bottom: 46px;
     border-bottom: 1px solid #E5E5E6;
 }
@@ -780,7 +779,7 @@ header .logo-mob {
     font-size: 32px;
     line-height: 150%;
     text-align: center;
-    color: #4B4B4B;
+    color: var(--text_color2); 
     margin-bottom: 37px;
 }
 .price .first-section_btn {
@@ -823,13 +822,13 @@ header .logo-mob {
     font-weight: 700;
     font-size: 18px;
     line-height: 125.5%;
-    color: #262626;   
+    color: var(--text_color);  
 }
 .contacts_item-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 200%;
-    color: #262626;
+    color: var(--text_color);
     text-decoration: none;
 }
 .contacts_item {
@@ -907,13 +906,13 @@ footer .cont {
     line-height: 177.5%;
     display: flex;
     align-items: center;
-    color: #262626;
+    color: var(--text_color);
 }
 .footer_item-text {
     font-weight: 400;
     font-size: 15px;
     line-height: 140%;
-    color: #262626;
+    color: var(--text_color);
     text-decoration: none;
 }
 
@@ -942,7 +941,7 @@ footer .cont {
     font-weight: 400;
     font-size: 26px;
     line-height: 31px;
-    color: #4B4B4B;
+    color: var(--text_color2); 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -958,10 +957,10 @@ footer .cont {
     padding: 0 20px;
     font-family: var(--font_family);
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     letter-spacing: 0.05em;
-    color: #262626;
+    color: var(--text_color);
 }
 .modal form .line .field input.error {
     color: #F42C2C;
@@ -976,10 +975,10 @@ footer .cont {
     padding: 18px 20px;
     font-family: var(--font_family);
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     letter-spacing: 0.05em;
-    color: #262626;
+    color: var(--text_color);
     resize: none;
 }
 .modal form button {
@@ -994,7 +993,7 @@ footer .cont {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #262626; 
+    color: var(--text_color);
     margin: 20px auto 0;
     transition: all .4s;
 }
@@ -1013,7 +1012,7 @@ label.checkbox {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    color: #262626;
+    color: var(--text_color);
     position: relative;
     display: table-cell;
     padding-left: 32px;
@@ -1031,7 +1030,7 @@ label.checkbox:before {
     content: '';
     transition: .2s linear;
     background: #F9F9F7;
-    border: 1px solid #262626;
+    border: 1px solid var(--text_color);
     border-radius: 4px;
 }
 label.checkbox:after {
@@ -1045,8 +1044,8 @@ label.checkbox:after {
     transition: opacity .2s linear;
     transform: rotate(-45deg);
     opacity: 0;
-    border-bottom: 2px solid #262626;
-    border-left: 2px solid  #262626;
+    border-bottom: 2px solid var(--text_color);
+    border-left: 2px solid var(--text_color);
 }
 input[type=checkbox]:checked + label.checkbox:after {
     opacity: 1;
