@@ -4,59 +4,10 @@
         --font_size: 17px;
         --font_size_title: 24px;
     }
-    header  {
-        margin-bottom: 50px;
+    header .menu .item {
+        margin-right: 40px;
     }
-    .first-section {
-        margin-top: 100px;
-    }
-    .first-section_title {
-        font-size: 26px;
-        line-height: 2;
-        margin-bottom: 20px;
-    }
-    .first-section_title br {
-        display: none;
-    }
-    .first-section_wrap,
-    .realization_wrap {
-        flex-direction: column;
-    }
-    .first-section_info,
-    .realization_info {
-        max-width: 100%;
-        width: 100%;
-        margin-right: 0px;
-    }
-    .first-section_text,
-    .realization_text {
-        line-height: 2;
-    }
-    .first-section_img,
-    .realization_img {
-        margin: 25px auto 0;
-    }
-    .description_title,
-    .realizationn_title,
-    .components_title {
-        margin-bottom: 20px;
-    }
-    .description ul {
-        margin-bottom: 0px;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-    .description ul li {
-        width: 100%;
-        margin-left: 0px;
-        line-height: 2;
-        margin-bottom: 20px;
-    }
-    .title2 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-bottom: 19px;
-    }
+
 
     
 

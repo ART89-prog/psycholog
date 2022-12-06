@@ -1,6 +1,13 @@
 @media (max-width: 479px) {
 
- 
+    .modal .callback_title {
+        font-size: 19px;
+        line-height: 22px;
+        margin-bottom: 17px;
+    }
+    .modal {
+        padding: 25px 20px 35px;
+    }
 
    
 }

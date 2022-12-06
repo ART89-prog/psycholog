@@ -16,7 +16,7 @@
 		<!-- Подключение шрифтов -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&family=Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
 		<!-- Данное значение часто используют(использовали) поисковые системы -->
 		<meta name="description" content="">
@@ -96,19 +96,19 @@
 						<div class="direction_items">
 							<div class="direction_item">
 								<div class="direction_item-title">Тревога</div>
-								<div class="direction_item-text">Эмоциональная нестабильность, депрессивные состояния, чувство вины, стыда</div>
+								<div class="direction_item-text">Эмоциональная нестабильность,<br> депрессивные состояния, чувство вины,<br> стыда</div>
 							</div>							
 							<div class="direction_item">
 								<div class="direction_item-title">Самооценка</div>
-								<div class="direction_item-text">Проблемы самооценки неудовлетворенность в жизни, отсутствие желаний, смысла</div>
+								<div class="direction_item-text">Проблемы самооценки<br> неудовлетворенность в жизни, отсутствие<br> желаний, смысла</div>
 							</div>
 							<div class="direction_item">
 								<div class="direction_item-title">Проблемы в отношениях</div>
-								<div class="direction_item-text">С партнером, детьми, близкими, ощущение опустошенности, отверженности, одиночество</div>
+								<div class="direction_item-text">С партнером, детьми, близкими, ощущение<br> опустошенности, отверженности,<br> одиночество</div>
 							</div>
 							<div class="direction_item">
 								<div class="direction_item-title">Самореализация</div>
-								<div class="direction_item-text">Проблемы самореализации, поиск призвания </div>
+								<div class="direction_item-text">Проблемы самореализации, поиск<br> призвания </div>
 							</div>
 							<div class="direction_item">
 								<div class="direction_item-title">Травматические состояния</div>
@@ -241,8 +241,10 @@
 									<div class="contacts_item-img">
 										<img src="images/skype.svg" alt="">
 									</div>
-									<div class="contacts_item-title">Skype:</div>
-									<a href="skype:[Leneva.Olga]" class="contacts_item-text">Leneva.Olga</a>
+									<div class="contacts_item-box">
+										<div class="contacts_item-title">Skype:</div>
+										<a href="skype:[Leneva.Olga]" class="contacts_item-text">Leneva.Olga</a>	
+									</div>									
 								</div>
 								<div class="contacts_item">
 									<div class="contacts_item-title">E-mail:</div>
@@ -266,7 +268,33 @@
 
 			<footer>
 				<div class="cont">
-				
+					<div class="footer_left">
+						<a href="#" class="footer_logo"><img src="images/logo-footer.svg" alt=""></a>
+						<div class="footer_text">Психоаналитически ориентированный <br>психолог</div>
+					</div>
+					<div class="footer_right">
+						<div class="footer_item">
+							<div class="footer_item-img">
+								<img src="images/skype.svg" alt="">
+							</div>
+							<div class="footer_item-box">
+								<div class="footer_item-title">Skype:</div>
+								<a href="skype:[Leneva.Olga]" class="footer_item-text">Leneva.Olga</a>	
+							</div>									
+						</div>
+						<div class="footer_item">
+							<div class="footer_item-img">
+								<img src="images/phone.svg" alt="">
+							</div>
+							<div class="footer_item-box">
+								<div class="footer_item-title">Телефон для связи:</div>
+								<a href="tel:79851265329" class="footer_item-text">+7 (985) 126-53-29</a>	
+							</div>									
+						</div>
+						<div class="footer_item">
+							<div class="footer_item-text">Садовая-Сухаревская улица, <br>дом 2/34, строение 1</div>
+						</div>
+					</div>
 				</div>
 			</footer>
 
@@ -285,29 +313,42 @@
 
 
 
-		<section class="modal callback" id="callback_modal">
-			<div class="callback_right">
-				<div class="callback_right-title">Обратный звонок</div>
-				<div class="callback_right-text">Отправьте запрос на консультации по ПО</div>
-				<form>
-					<div class="line">
-						<div class="field">
-							<label for="name">Как вас зовут?</label>
-							<input id="name" type="text" placeholder="Ваше имя">
-						</div>
+		<section class="modal callback" id="callback_modal">		
+			<div class="callback_title">Запись на консультацию</div>
+			<form>
+				<div class="line">
+					<div class="field">
+						<input type="text" placeholder="ФИО">
 					</div>
-					<div class="line">
-						<div class="field">
-							<label for="name">Номер телефона</label>
-							<input id="name" type="tel" placeholder="+7 (___) ___-__-__">
-						</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<input type="number" placeholder="Возраст">
 					</div>
-					<button type="submit">
-						<span>Отправить запрос</span>
-					</button>
-					<div class="form-politic">Я подтверждаю согласие на обработку моих персональных данных (закон №152-ФЗ «О персональных данных») и соглашаюсь с политикой конфиденциальности</div>
-				</form>
-			</div>	
+				</div>
+				<div class="line">
+					<div class="field">
+						<input type="tel" placeholder="Телефон">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<input type="email" placeholder="E-mail">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<textarea placeholder="Первоначальный запрос"></textarea>
+					</div>
+				</div>
+				<div class="checkbox-block">
+					<input type="checkbox" id="check" checked="">
+					<label for="check" class="checkbox">Я согласен с политикой конфеденциальности</label>
+				</div>    
+				<button type="submit">
+					<span>Записаться</span>
+				</button>
+			</form>
 		</section>
 
 
@@ -343,8 +384,7 @@
 					.add(myGeoObject)
 					.add(myPieChart)                        
 					.add(new ymaps.Placemark([56.09,37.49], {
-						balloonContent: '<strong>Шоссейная улица, 3А</strong>',
-						iconCaption: 'Шоссейная улица, 3А'
+					
 					}, {
 						preset: 'islands#greenDotIconWithCaption'
 					}))
