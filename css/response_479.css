@@ -8,6 +8,62 @@
     .modal {
         padding: 25px 20px 35px;
     }
+    header .menu .first-section_btn-mob {
+        width: 300px;
+    }
+    .header-phone {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    header .logo-mob {
+        margin-right: 8px;
+        padding-right: 8px;
+    }
+
+    .footer_left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_text {
+        border-left: none;
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 106%;
+        margin-top: 4px;
+    }
+    .footer_logo {
+        width: 152px;
+    }
+    .footer_logo img {
+        width: 100%;
+    }
+    .footer_item-box {
+        display: flex;
+    }
+    .footer_item-title {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .footer_item-text {
+        font-size: 18px;
+        line-height: 140%;
+        margin-left: 6px;
+    }
+    .footer_item:nth-child(2) .footer_item-title {
+        display: none;
+    }
+    .footer_item:nth-child(3) .footer_item-text {
+        font-size: 14px;
+        line-height: 140%;        
+        margin-left: 0;
+    }
+    .footer_item:nth-child(3) {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+ 
+
 
    
 }

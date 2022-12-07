@@ -370,8 +370,7 @@ header {
     width: 100%;
     height: 74px;
     position: fixed;
-    top: 0;
-    border-bottom: 1px solid transparent;
+    top: 0;    
 }
 header .cont {
     display: flex;
@@ -446,6 +445,12 @@ header .logo-mob {
     text-decoration: none;
     white-space: nowrap;
 }
+.header-phone_mob {
+    display: none;
+}
+header .menu .first-section_btn-mob {
+    display: none;
+}
 
 
 
@@ -462,7 +467,7 @@ header .logo-mob {
     justify-content: space-between;
 }
 .first-section_info {
-    max-width: 480px;
+    width: calc(100% - 695px);
     margin-top: 44px;
 }
 .first-section_title {
@@ -511,6 +516,9 @@ header .logo-mob {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+.first-section_btn-mobile {
+    display: none;
 }
 
 
@@ -683,6 +691,7 @@ header .logo-mob {
 .method_img {
     width: 500px;
     height: 596px;
+    margin-top: 10px;
 }
 .method_img img {
     width: 100%;
@@ -795,21 +804,22 @@ header .logo-mob {
     padding-bottom: 80px;
     background: #F9F9F7;
 }
-.contacts .cont {
+.contacts_wrap {
     display: flex;
     justify-content: space-between;
 }
 .contacts_info {
     max-width: 305px;
+    width: 100%;
 }
 .contacts_title {
-    padding-bottom: 76px;
-    margin-bottom: 27px;
-    border-bottom: 1px solid #D1DAE2;
+    margin-bottom: 76px;
 }
 .contacts_item:nth-child(1) {
     display: flex;
     align-items: center;
+    border-top: 1px solid #D1DAE2;
+    padding-top: 27px;
 }
 .contacts_item:nth-child(1) .contacts_item-box {
     margin-left: 20px;
@@ -839,11 +849,12 @@ header .logo-mob {
 .map_wrap {
     position: relative;
     overflow: hidden;
-    width: 819px;
+    width: calc(100% - 335px);
     height: 530px;
     margin-left: auto;
     transform: translateZ(0);
     border-radius: 4px;
+    margin-top: -110px;
 }
 #map {
     position: absolute;
@@ -867,7 +878,7 @@ footer .cont {
 .footer_left {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-right: 20px;
 }
 .footer_text {
     border-left: 1px solid #EFEFEF;
@@ -914,8 +925,24 @@ footer .cont {
     line-height: 140%;
     color: var(--text_color);
     text-decoration: none;
+    white-space: nowrap;
 }
 
+
+
+.buttonUp button {
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.06);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

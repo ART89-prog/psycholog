@@ -1,6 +1,11 @@
 @media print, (max-width: 1300px) {
 
-
+    .footer_item {
+        margin-right: 30px;
+    }
+    .footer_text {
+        max-width: 150px;
+    }
 
 }
 
