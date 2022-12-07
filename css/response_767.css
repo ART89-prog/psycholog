@@ -1,9 +1,9 @@
 @media print, (max-width: 767px) {
 
-    /* :root {
-        --font_size: 16px;
-        --font_size_title: 20px;
-    } */
+    :root {
+        --font_size: 15px;
+        --font_size_title: 22px;
+    }
 
     header .mob_menu_btn {
         display: flex;
@@ -238,6 +238,99 @@
     .contacts_item:nth-child(3) .contacts_item-text {
         margin-left: 0;
     }
+    .title {
+        margin-bottom: 20px;
+    }
+    .direction {
+        margin-bottom: 30px;
+    }
+    .about {
+        margin-bottom: 30px;
+    }
+    .method {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .consultations {
+        margin-bottom: 30px;
+    }
+    .price {
+        margin-bottom: 30px;
+    }
+    .contacts {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .first-section_text {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+    .first-section {
+        margin-top: 30px;
+        padding-top: 75px;
+        padding-bottom: 38px;
+        margin-bottom: 30px;
+    }
+    .direction_item-title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .direction_item:first-child {
+        padding-top: 0;
+    }
+    .about blockquote br {
+        display: none;
+    }
+    .about blockquote {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    .method_subtitle {
+        font-size: 19px;
+        line-height: 127%;
+    }
+    .consultations_item-stage {
+        font-size: 20px;
+    }
+    .consultations_item-title {
+        font-size: 20px;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+    .consultations_item:last-child {
+        margin-bottom: 0;
+    }
+    .price_item-title {
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 5px;
+    }
+    .price_item-text {
+        font-size: 20px;
+        line-height: 130%;
+        padding-bottom: 12px;
+    }
+    .price_item-val {
+        padding-top: 12px;
+        font-size: 28px;
+        line-height: 150%;
+        margin-bottom: 11px;
+    }
+    .fancybox-slide--html {
+        padding: 10px;
+    }
+    .contacts_item:last-child {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        border-bottom: none;
+    }
+
+    .page header .logo-mob {
+        border-right: none;
+    }
+
 
 
 

@@ -76,6 +76,13 @@
         padding-bottom: 50px;
     }
 
+    .page header .logo-mob span {
+        max-width: 150px;
+    }
+    .page .header-phone {
+        padding-left: 15px;
+    }
+
 
 
 

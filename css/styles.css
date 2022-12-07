@@ -452,7 +452,40 @@ header .menu .first-section_btn-mob {
     display: none;
 }
 
-
+.page header {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.page header .logo-mob {
+    display: flex;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.page header .logo-mob img {
+    width: 175px;
+    padding-right: 17px;
+    border-right: 1px solid #EFEFEF;
+    margin-right: 18px;
+}
+.page header .logo-mob span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 106%;
+    color: #4E4E4E;
+    max-width: 255px;
+    width: 100%;
+}
+.page header .menu .item {
+    margin-right: 40px;
+}
+.page .header-phone {
+    padding-left: 37px;
+    border-left: 1px solid #EFEFEF;
+}
+.page header .menu .item:last-child {
+    margin-right: 15px;
+}
 
 /* first-section */
 .first-section {
@@ -1076,4 +1109,97 @@ label.checkbox:after {
 }
 input[type=checkbox]:checked + label.checkbox:after {
     opacity: 1;
+}
+
+
+
+/* posts */
+.posts {
+    margin-top: 104px;
+}
+.breadcrumbs {
+    margin-bottom: 32px;
+}
+.breadcrumbs a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9D9D9D;
+}
+.breadcrumbs .current {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #262626;   
+}
+.posts_items {
+    margin-bottom: 40px;
+}
+.posts_item {
+    display: flex;
+    margin-bottom: 40px;
+}
+.posts_item:last-child {
+    margin-bottom: 0;
+}
+.posts_item-img {
+    width: 512px;
+    height: 250px;
+}
+.posts_item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.posts_item-info {
+    margin-left: 40px;
+    max-width: 550px;
+    width: 100%;
+}
+.posts_item-title {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #4B4B4B;
+    margin-bottom: 23px;
+    text-decoration: none;
+    display: block;
+}
+.posts_item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8B8B8B;
+    margin-bottom: 20px;
+}
+.posts_item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #8B8B8B;
+    transition: all .4s;
+}
+.posts_item-link:hover {
+    text-decoration-line: none;
+}
+.pagination {
+    display: flex;
+}
+.pagination a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4B4B4B;
+    margin-right: 23px;
+    display: block;
+    text-decoration: none;
+}
+.pagination span {
+}
+.pagination a.active {
+    font-weight: 900;
 }

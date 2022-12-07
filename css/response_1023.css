@@ -1,9 +1,6 @@
 @media print, (max-width: 1023px) {
  
-    /* :root {
-        --font_size: 17px;
-        --font_size_title: 24px;
-    } */
+
     header .menu .item {
         margin-right: 40px;
     }
@@ -22,10 +19,10 @@
     .first-section_info {
         width: 100%;
     }
-    .first-section_btn {
+    .first-section .first-section_btn {
         display: none;
     }
-    .first-section_btn-mobile {
+    .first-section .first-section_btn-mobile {
         display: flex;
         margin-top: 30px;
     }
@@ -97,6 +94,12 @@
         height: 450px;
     }
 
+    .page .header-phone {
+        display: none;
+    }
+    .page header .menu .item {
+        margin-right: 20px;
+    }
 
 
 

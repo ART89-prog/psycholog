@@ -62,6 +62,26 @@
         border-bottom: none;
         padding-bottom: 0;
     }
+    .first-section_btn-mobile {
+        width: 100%;
+    }
+
+    .page header .logo-mob {
+        flex-direction: column;
+    }
+    .page header .logo-mob img {
+        margin-bottom: 7px;
+    }
+    .page header .logo-mob span {
+        max-width: 100%;
+        font-size: 12px;
+    }
+    .page header {
+        height: 87px;
+    }
+    .page header .menu {
+        top: 87px;
+    }
  
 
 
