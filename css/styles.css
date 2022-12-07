@@ -775,7 +775,7 @@ header .menu .first-section_btn-mob {
     color: var(--text_color2); 
     margin-bottom: 24px;
 }
-.method_info p b {
+.method_info p span {
     font-weight: 800;
 }
 .method_info p:last-child {
