@@ -330,6 +330,28 @@
     .page header .logo-mob {
         border-right: none;
     }
+    .posts_item {
+        flex-direction: column;
+    }
+    .posts_item-info {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .posts_item-img {
+        width: 100%;
+    }
+    .posts_item-title {
+        font-size: 20px;
+        line-height: 1.38;
+        margin-bottom: 10px;
+        margin-top: 13px;
+    }
+    .posts_item {
+        margin-bottom: 30px;
+    }
+    .posts_item-text {
+        margin-bottom: 10px;
+    }
 
 
 
